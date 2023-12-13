@@ -1,0 +1,97 @@
+body {
+  display: flex;
+  //justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+ .container {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 50px;
+ 
+
+  .ball {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #770101;
+    border-radius: 50%;
+    transition: transform 0.5s ease-in-out;
+    right: 0;
+   
+  }
+  img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+
+  .moveButton  {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+}
+
+.button{
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: #3e8840;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 48%;
+  height: 86%;
+}
+.button:hover{
+  color: #efefef;
+  background-color: #22d628;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+}
+
+.hoverBtn{
+  margin-top: 10%;
+  padding: 15px 20px;
+  border: none;
+  color: white;
+  background-color: #770101;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 7px;  
+  transition: 2s ease-in-out;
+  transform: scale(1);
+  cursor: pointer;
+}
+
+.colorChangeDiv {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 250px;
+  height: 250px;
+  background-color: blue; /* Və ya istədiyiniz başqa bir rəng */
+  cursor: pointer;
+}
+
